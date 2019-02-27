@@ -1,4 +1,4 @@
-# Camp_Find_Project
+# CampFind_Project
 
 # Overview
 CampFind is a full-stack web application based off of the final student project of Colt Steele's 'The Complete Web Developer Bootcamp' where the user can create, read, update, and delete 'campgrounds'.
