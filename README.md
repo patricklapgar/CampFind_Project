@@ -1,7 +1,7 @@
-# CampFind_Project
+# YelpCamp
 
 # Overview
-CampFind is a full-stack web application based off of the final student project of Colt Steele's 'The Complete Web Developer Bootcamp' where the user can create, read, update, and delete 'campgrounds'.
+YelpCamp is a full-stack web application based off of the final student project of Colt Steele's 'The Complete Web Developer Bootcamp' where the user can create, read, update, and delete 'campgrounds'.
 A user is also allowed to include a campground's location, daily listing price as well as post a comment in the section below a campground's picture. 
 
 # Front-End
