@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+
+<div class = "container">
+    <div class = "form">
+        <h1 style = "text-align: center; ">Post your own comment about <%= campground.name %>!</h1>
+        <div style = "width: 30%; margin: 27px auto;">
+            <form action = "/campgrounds/<%= campground._id %>/comments" method = "POST">
+                <div class = "form-group">
+                    <!-- for your attributes, use the comment[...] syntax so that when you request comments in app.js
+                    both the author and the author's comment are brought back together -->
+                    <input class = "form-control" type = "text" name = "comment[author]" placeholder = "What's your name?">
+                </div>
+                <div class = "form-group">
+                    <input class = "form-control" type = "text" name = "comment[text]" placeholder = "Your thoughts on this campground?">
+                </div>
+                <div class = "form-group">
+                     <button class = "btn btn-lg btn-primary btn-block">Submit!</button>
+                </div>
+            </form>
+            <a href = "/campgrounds">Go Back</a>
+        </div>
+    </div>
+</div>
+
+<% include ../partials/footer %>
